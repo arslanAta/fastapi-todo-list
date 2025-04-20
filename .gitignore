@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# Virtual Environments
+venv/
+.env/
+.env.*  # e.g. .env.dev, .env.prod
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# SQLite database
+*.sqlite3
+
+# Docker
+*.db
+docker-compose.override.yml
+
+# IDEs
+.idea/
+
+# Jupyter Notebooks (if used)
+.ipynb_checkpoints/
+
+# Node stuff (if you have a frontend inside)
+node_modules/
+
+# Others
+*.bak
+*.swp
